@@ -1,0 +1,7 @@
+export declare type EnvironmentDictionary = {
+    [key: string]: string | undefined;
+};
+export declare function getScriptToExecute(script: string, cwd: string): string | null;
+export declare function setEnvironmentVariables(readValues: EnvironmentDictionary, force?: boolean): void;
+export declare function constructNewArgv(currentArgv: string[], script: string, newArguments: string): string[];
+export declare function escapeArguments(args: string[]): string[];

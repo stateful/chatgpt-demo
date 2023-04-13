@@ -1,0 +1,39 @@
+{
+  "name": "chatgpt-demo-nodejs",
+  "version": "0.0.1",
+  "description": "A command line interface for OpenAI's ChatGPT written in JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "basic-example": "nodenv index.js",
+    "start": "./cli/index.js",
+    "support-demo": "nodenv customer-support.js",
+    "marketing.js": "nodenv marketing.js",
+    "product-search.js": "nodenv product-search.js"
+  },
+  "keywords": [
+    "openai",
+    "chat-gpt"
+  ],
+  "author": {
+    "name": "Phil Nash",
+    "email": "philnash@gmail.com",
+    "url": "https://philna.sh/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@dosco/minds": "^1.8.1",
+    "dotenv": "^16.0.3",
+    "import-jsx": "^5.0.0",
+    "ink": "^4.1.0",
+    "ink-select-input": "^5.0.0",
+    "ink-spinner": "^5.0.0",
+    "ink-text-input": "^5.0.1",
+    "openai": "^3.2.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "node-env-run": "^4.0.2"
+  }
+}
